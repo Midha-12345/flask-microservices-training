@@ -8,7 +8,7 @@ print(f"Environment: [{_deployed_env_}]")
 class Config(object):
     TESTING = False
     JWT_SECRET_KEY = 'this-is-a-complicated-secret'
-    JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(minutes=30)
+    JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(seconds=10)
     JWT_REFRESH_TOKEN_EXPIRES = datetime.timedelta(days=1)
     UMS_ADMIN_EMAIL = 'saurav@gmail.com'
     UMS_ADMIN_PASSWORD = 'saurav'
