@@ -1,7 +1,6 @@
 from app import app, db
-
-
-
+from app.api.products_api import ProductsApi
+from app.api.product_api import ProductApi
 
 
 

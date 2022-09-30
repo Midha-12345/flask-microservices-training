@@ -1,5 +1,4 @@
 from locale import currency
-from os import ST_MANDLOCK
 from xmlrpc.client import Boolean
 from app import db
 
